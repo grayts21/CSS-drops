@@ -8,7 +8,7 @@
     "start:debug": "set DEBUG=app & nodemon app.js",
     "lint": "eslint **/*.*",
     "lint:fix": "eslint --fix **/*.*",
-    "less": "lessc css/site.less css/site.css",
+    "less": "lessc app\\css\\style.less app\\css\\style.css",
     "startLess": "less-watch-compiler app\\css app\\css style.less"
   },
   "author": "Anthony Gray",
