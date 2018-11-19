@@ -29,6 +29,11 @@
       "type": "npm",
       "script": "less",
       "problemMatcher": []
+    },
+    {
+      "type": "npm",
+      "script": "startLess",
+      "problemMatcher": []
     }
   ]
 }

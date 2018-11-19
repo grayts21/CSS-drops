@@ -9,3 +9,96 @@ body {
   background: #FFFACD;
 }
 
+nav ul {
+  list-style-type: none;
+  display: block;
+}
+
+// li {
+//   text-align: center;
+// }
+
+.a2Btn {
+  float: left;
+  /* list-style-type: none; */
+  /* border: 1px solid #000; */
+  /* font-family: "Arial Black"; */
+  text-decoration: none;
+
+}
+
+.btn {
+  font-family: "Copperplate Gothic";
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  color: #16166B;
+  // padding: 5px 20px 5px 20px;
+  padding: 5px 5px 5px 5px;
+  width: 120px;
+  border:  #16166B 1px solid;
+  border-radius: 3px;
+  margin: 5px;
+  box-shadow: 3px 3px 10px gray;
+
+  // &:before, &:after {
+  //   content: '';
+  //   position: absolute;
+
+  // }
+  // &:after {
+  //   top: 0;
+  //   bottom: 0;
+  //   right: 0;
+  //   left: 0;
+  //   border: 2px solid rgba(255, 255, 255, 0.1);
+  //   border-bottom: 0;
+  //   border-radius: 7px;
+  // }
+
+  &.alt {
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  }
+
+  &.alt:before {
+    display: none;
+  }
+
+  &.blue {
+    background: #3471b8;
+    border-color: #255184 #244f80 #1e4068;
+    background-image: linear-gradient(to bottom, #497fcc 0%, #3d72c8 50%, #3471b8 50%, #2365a0 100%);
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#54fff2+0,33fff1+17,00fae9+49,00c2b5+84,00a89d+100 */
+    background: #54fff2; /* Old browsers */
+    background-image: -moz-linear-gradient(top, #54fff2 0%, #33fff1 17%, #00fae9 49%, #00c2b5 84%, #00a89d 100%); /* FF3.6-15 */
+    background-image: -webkit-linear-gradient(top, #54fff2 0%,#33fff1 17%,#00fae9 49%,#00c2b5 84%,#00a89d 100%); /* Chrome10-25,Safari5.1-6 */
+    background-image: linear-gradient(to bottom, #54fff2 0%,#33fff1 17%,#00fae9 50%,#00c2b5 84%,#00a89d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54fff2', endColorstr='#00a89d',GradientType=0 ); /* IE6-9 */
+  }
+
+  &.blue:before {
+    background: #4c8ad3;
+    background-image: linear-gradient(to bottom, #29609f, #5995da);
+  }
+
+  &.blue:hover {
+    background: #3d79c8;
+    background-image: linear-gradient(to bottom, #216298 0%, #3774c4 60%, #3d79c8 100%);
+  }
+
+  &.blue:hover:after {
+    border-color: #3d79c8;
+  }
+
+}
+
+.btnPop:hover {
+  /* background-color: #1E90FF; */
+  /* font-family: "Tahoma"; */
+  text-shadow: 2px 2px #9f9fb4;
+  font-size: 22px;
+  padding: 3px 16px 5px 16px;
+  transition: all 100ms ease;
+
+}
